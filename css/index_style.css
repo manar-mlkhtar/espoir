@@ -1,0 +1,1145 @@
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+
+}
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url(../fonts/Roboto/Roboto-Medium.ttf);
+}
+body
+{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  background-color: #F8F8F8
+}
+
+.bg-body-tertiary
+{
+ background: #F0F0F0!important;
+
+}
+.imgNavBar
+{
+    height: 50px
+}
+.ml-nav
+{
+    margin-left: auto!important;
+    margin-right: 0!important
+
+}
+.navbar-nav .navBasic.active, .navbar-nav .navBasic.show {
+    color: #fff;
+    background-color: #B59410;
+    border-radius: 5px;
+   
+}
+.navBItem
+{
+     padding-right: 10px!important;
+    padding-left: 10px!important;  
+}
+.navBasic
+{
+      
+    color: #000;
+      padding-right: 2px;
+    padding-left: 2px;  
+ 
+
+}
+.navBasic:hover
+{
+      
+    color:#B59410;
+ 
+
+}
+.bookNow a
+{
+   color: #B59410 ;
+    padding: 0;
+    text-decoration: none
+}
+.bookNow 
+{
+    
+    border-color: #B59410;
+    color: #B59410;
+
+}
+.bookNow:hover {
+    background-color: #B59410;
+    border-color: #B59410;
+   a{
+            color: #fff;
+
+    }
+}
+.btn-lang
+{
+    background:rgba(181, 148, 16, 0.4);
+    margin-left: 10px;
+}
+.btn-lang:hover{
+    
+    background-color: #B59410;
+    color: #fff
+
+}
+#navBar2
+{
+    background: #000;
+    box-shadow: 0px 6px 8.9px 0px #00000040;
+
+}
+#navBar2 .nav li a
+{
+    color: #fff
+}
+.fas-phone
+{
+    color: #fff
+}
+.fa-gmail
+{
+    color: #fff 
+}
+.nav .li-icon
+{
+    padding-right: 2px!important
+}
+.fa-base
+{
+    background-color: #fff;
+    border-radius: 50%;
+    color: #000;
+    padding: 5px 6px
+}
+.fa-you
+{
+    background-color: #fff;
+    border-radius: 50%;
+    color: #000;
+    padding: 5px 5px
+}
+#navBar2 .nav .li-icon a
+{
+    padding-right: 2px;
+   padding-left: 2px
+
+}
+.carousel-indicators [data-bs-target] {
+     
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+    opacity: 1;
+ 
+}
+.carousel-indicators .active
+{
+  background-color: #B59410
+}
+.carousel-item img
+{
+/*
+     filter: blur(2px);
+  -webkit-filter: blur(2px);
+*/
+
+
+  
+}
+
+.carousel-caption {
+position: absolute;
+    top: 18%;
+    left: 15%;
+    right: 50%;
+    left: 0;
+    bottom: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    padding-left: 150px;
+    text-align: left;
+    background-color: rgba(206, 206, 204, 0.0);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(8px);
+}
+
+
+
+.carousel-caption h1
+{
+    color: #B59410;
+
+ 
+    text-transform: uppercase
+}
+.carousel-caption p
+{
+        color: #000;
+    padding-top: 20px
+
+    
+
+}
+.bookNowslider 
+{
+    
+    border-color: #B59410;
+    color: #fff;
+    background:#B59410; 
+    padding: 6px 23px;
+    font-size: 14px
+
+}
+
+.bookNowslider a
+{
+   color: #fff ;
+    text-decoration: none
+}
+.bookNowslider 
+{
+    
+     border-color: #B59410;
+    color: #fff;
+    background:#B59410; 
+    padding: 6px 23px;
+    font-size: 14px
+}
+.bookNowslider:hover {
+    background-color: #B59410;
+    border-color: #B59410;
+   a{
+            color: #fff;
+
+    }
+}
+#aboutUs
+{
+    background-color: #FBF8F8;
+    padding: 40px 0
+}
+.about-img img
+{
+    max-width: 400px
+    
+}
+.aboutUs
+{
+   padding: 50px 0 
+}
+.aboutUs h2
+{
+    color: #B59410;
+    margin-bottom: 30px;
+    font-weight: bold
+ 
+}
+.aboutUs p
+{
+    color: rgba(26, 32, 44, 1);
+    line-height: 25.6px;
+    opacity: 0.7;
+        text-align:justify;
+
+}
+#services
+{
+  box-shadow: 0px 0px 4px 5px #0000000D;
+        padding-top: 45px;
+    padding-bottom: 45px;
+    background: #FBF8F8
+        
+
+  
+}
+
+#services h2
+{
+     color: #B59410;
+    margin-bottom: 30px;
+   font-weight: bold;
+    text-align: center;
+}
+#services h2::before,
+#services h2::after {
+    display: inline-block;
+    content: "";
+    border-top: 2px solid #B59410;
+    width: 4rem;
+    margin: 0 1rem;
+    transform: translateY(-0.5rem);
+}
+.card-services
+{
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 1px #00000026;
+    margin-bottom: 10px;
+    width: 18rem;
+    text-align:justify;
+
+
+
+}
+.card-services .img-services img
+{
+    background-color: #B59410;
+    border-radius: 50%;
+    padding: 10px;
+    max-height: 75px;
+    max-width: 73px
+}
+.img-services
+{
+    text-align: center;
+    margin: 20px 0 0 0
+}
+.card-services h5
+{
+    text-align: center;
+    color: #000000;
+  font-weight: 500
+    
+}
+.card-services p
+{
+    color: #1A202C;
+    opacity: 0.7
+}
+#ourTeam
+{
+    box-shadow: 0px 0px 4px 5px #0000000D;
+    background: #FFFFFF;
+    padding: 45px 0 20px 0
+
+}
+#ourTeam h2
+{
+     color: #B59410;
+    margin-bottom: 30px;
+  font-weight:bold;
+    text-align: center;
+}
+#ourTeam h2::before,
+#ourTeam h2::after {
+    display: inline-block;
+    content: "";
+    border-top: 2px solid #B59410;
+    width: 4rem;
+    margin: 0 1rem;
+    transform: translateY(-0.5rem);
+}
+.divTeam
+{
+    text-align: center;
+    margin-bottom: 20px
+}
+.teamimg img 
+{
+    max-height: 160px;
+   max-width: 160px;
+    border: 2px solid #B59410;
+    border-radius: 50%
+
+}
+.divTeam h5
+{
+        
+    padding-top: 10px;
+    font-weight: 600
+    
+}
+.divTeam p
+{
+    color: #B59410;
+  
+    margin-bottom: 5px
+}
+
+#Resources
+{
+box-shadow: 0px 0px 4px 5px #0000000D;
+    background: #FFFFFF;
+    padding: 45px 0 20px 0
+
+}
+#Resources h2
+{
+     color: #B59410;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bold
+}
+#Resources h2::before,
+#Resources h2::after {
+    display: inline-block;
+    content: "";
+    border-top: 2px solid #B59410;
+    width: 4rem;
+    margin: 0 1rem;
+    transform: translateY(-0.5rem);
+}
+.card-resources
+{
+    box-shadow: 0px 0px 4px 1px #00000040;
+    width: 20rem;
+    margin-bottom: 20px
+ 
+}
+.card-resources .card-body 
+{
+    padding: 5px 10px
+}
+.card-resources .card-body h5
+{
+   
+font-size: 16px}
+.card-resources .card-body p
+{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.8);
+    opacity: 0.7;
+        text-align:justify;
+
+}
+.left-right
+{
+        position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+.carousel-control-next ,.carousel-control-prev{
+    position: relative;
+    display: inline-block;
+  
+  
+    width: 3%; 
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border-radius: 5px;
+    opacity: 1;
+    transition: opacity .15s ease;
+    background: #B59410;
+    
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+       width: 1.1rem;
+    height: 1.5rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+    margin-top: 5px
+}
+.seeMore
+{
+   background: #B59410;
+    color: #fff;
+        border-radius: 5px;
+    padding: 5px 20px 5px 20px;
+    margin: 0 2px 15px 2px
+
+}
+
+.seeMore a
+{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+.seeMore:hover {
+    color: #fff;
+    background-color: #B59410;
+    border-color: #B59410;
+}
+.seeMore-check:checked+.seeMore, .seeMore.active, .seeMore.show, .seeMore:first-child:active, :not(.seeMore-check)+.seeMore:active {
+   color: #fff;
+    background-color: #B59410;
+    border-color: #B59410;
+}
+#Testimonial
+{
+  box-shadow: 0px 0px 4px 5px #0000000D;
+        padding-top: 45px;
+    padding-bottom: 45px;
+    background: #FBF8F8
+
+  
+}
+
+#Testimonial h2
+{
+     color: #B59410;
+    margin-bottom: 30px;
+  font-weight: bold;
+    text-align: center;
+}
+#Testimonial h2::before,
+#Testimonial h2::after {
+    display: inline-block;
+    content: "";
+    border-top: 2px solid #B59410;
+    width: 4rem;
+    margin: 0 1rem;
+    transform: translateY(-0.5rem);
+}
+.carousel-testimonial
+{
+    text-align: center
+}
+#carouselExampleCaptions1 .carousel-indicators
+{
+   position: relative
+}
+.contentTestimonial img
+{
+    border-radius: 50%;
+    max-width: 105px;
+        max-height: 105px
+}
+.contentTestimonial h6
+{
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 500;
+    margin-top: 10px
+    
+}
+.contentTestimonial p
+{
+    background: #B5941066;
+        box-shadow: 0px 0px 4px 1px #00000026;
+    color:rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 7px 15px;
+    font-weight: 500;
+    font-size: 15px;
+    
+}
+
+#footer
+{
+    background: #252525;
+    padding: 30px 0 10px 0
+}
+.contentF-right
+{
+    text-align: left;
+    margin-bottom: 20px
+}
+.contentF-right p
+{
+    color: rgba(255, 255, 255, 1);
+    font-size: 15px
+}
+.contentF-right img
+{
+  max-height: 50px;
+    margin-bottom: 6px
+
+}
+.labesell 
+{
+    color: #fff
+}
+.subscribeBtn
+{
+    margin-left: 4px!important;
+    border-radius: 5px!important;
+    color: #fff;
+    border-color: #fff
+}
+.inputGroupSubscribe input
+{
+        border-radius: 5px!important;
+
+}
+.nav-footer li a
+{
+    padding: 4px
+}
+.importantLinks{
+    margin-bottom: 20px
+}
+.importantLinks h5
+{
+  color: #fff;
+    margin-top: 10px;
+    font-weight: 500;
+    margin-left: 15px
+}
+.importantLinks ul li a
+{
+    color: #fff;
+    font-size: 15px
+}
+.importantLinks ul li a:hover
+{
+        color: #B59410
+}
+.rightsFooter
+{
+    text-align: center;
+        padding-top: 10px
+
+    
+}
+.rightsFooter p
+{
+    color: #fff;
+    margin-bottom: 0;
+}
+#aboutPage
+{
+    padding: 20px 0
+}
+.aboutDesc img 
+{
+    max-width:1068;
+    margin-bottom: 20px
+}
+.aboutDesc h4
+{
+   color: rgba(181, 148, 16, 1);
+
+    
+}
+.aboutDesc p
+{
+    color: rgba(26, 32, 44, 1);
+        text-align: justify;
+    opacity: 0.7
+    
+
+}
+.aboutImgs img
+{
+    max-width: 463px;
+    padding-right: 20px;
+    margin-bottom: 20px
+}
+#blogPge
+{
+    padding: 20px 0px
+}
+.blogDesc h3
+{
+   color: #B59410;
+    margin-bottom: 20px
+}
+.blogDesc a 
+{
+    text-decoration: none
+}
+.paginationPages li
+{
+   margin: 0 5px
+}
+.paginationPages li a
+{
+    background: transparent;
+    border: none;
+    color: #000000;
+}
+.paginationPages .page-link.active {
+    z-index: 3;
+    color: #fff;
+    background-color: rgba(181, 148, 16, 1);
+    border-color: rgba(181, 148, 16, 1)
+}
+.paginationPages .page-item-static a:hover {
+    z-index: 2;
+    color: #fff;
+    background-color: #B59410;
+    border-color:#B59410;
+}
+.rightArrow
+{
+    background: #00000099;
+    border-radius: 5px
+}
+.rightArrow  a i
+{
+    color: #fff
+}
+.rightArrow a:hover 
+{
+     background: #00000099;
+    border-radius: 5px
+}
+.articleDesc 
+{
+        margin-bottom: 20px
+
+}
+.articleDesc h4
+{
+   color: #B59410;
+ font-weight:500;
+    margin-bottom: 20px;
+    line-height: 26px;
+
+}
+.articleDesc p
+{
+    margin-top: 20px;
+    color: #1A202C;
+    text-align: justify;
+    opacity: 0.7
+     
+}
+.articleDesc img
+{
+    max-width: 1068px;
+    max-height: 468px
+}
+.articleDescription 
+{
+    padding: 10px 0
+}
+.articleDescription h6
+{
+  color: #B59410;
+line-height: 26px;
+  margin-bottom:10px
+}
+.articleDescription p
+{
+ color: #1A202C;
+ text-align: justify;
+    opacity: 0.7
+}
+.bookService
+{
+    background: #B5941066;
+    border-radius: 10px;
+    padding: 25px;
+}
+.bookService h5
+{
+    color: rgba(0, 0, 0, 1);
+    font-weight: bold;
+ 
+margin-bottom: 15px
+}
+.serviceForm label
+{
+    color: #000000;
+}
+.serviceForm .name-col
+{
+    margin-right: 50px
+}
+.serviceForm input
+{
+    padding: 10px .75rem;
+}
+.btn-book
+{
+    text-align: center;
+    margin-top: 30px
+ 
+}
+.btn-book .btn
+{
+ 
+   background: #000000;
+    border-radius: 5px;
+    padding: 7px 20px   ;
+    color: #fff;
+}
+#teamPage
+{
+    padding: 20px 0px
+}
+
+.head-team
+{
+    position: relative
+}
+.head-team img
+{
+    max-width: 1068px;
+    max-height: 320px;
+    border-radius: 5px
+}
+.desTeam
+{
+    position: absolute;
+    right: 20%;
+    top:40%
+}
+.desTeam h1
+{
+      color: #B59410;
+   font-family: "Poetsen One", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.teamDesc
+{
+    margin-top: 20px
+}
+.teamDesc h4
+{
+  color: #B59410;
+   font-family: "Poetsen One", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+margin: 10px 0 20px 0
+}
+.btnTeam
+{
+    color: #fff;
+    background: #B59410;
+    padding: 7px 35px;
+     
+    font-size: 15px
+
+    
+}
+.btnTeam:hover
+{
+       background: #B59410;
+        color: #fff;
+}
+.btnTeam a
+{
+    text-decoration: none;
+        color: #fff;
+
+}
+.btnTeam a:hover
+{
+    background: transparent;
+        color: #fff;
+
+}
+.desTeam1
+{
+    position: absolute;
+    right: 30%;
+    top:40%;
+  text-align: center
+
+}
+.desTeam1 h2
+{
+      color: #000000;
+    font-weight: 600;
+
+    margin-bottom: 10px
+}
+.desTeam1 h5
+{
+      color: #000000;
+   
+}
+.paradesTeam1
+{
+    color: #1A202C;
+    margin-top: 20px;
+    line-height: 28.8px;
+    opacity: 0.7;
+    text-align: justify
+}
+#gallery
+{
+    padding: 20px 0px
+}
+.gallery h3
+{
+   color: #B59410;
+     
+    margin-bottom: 40px
+}
+.gallery-ul li
+{
+       width: 50%;
+}
+.gallery-ul li button
+{
+    color:#252525;
+    border-bottom: 3px solid #D9D9D9;
+    border-radius: 0!important;
+     width: 100%;
+
+
+}
+.gallery-ul  .nav-link.active , .gallery-ul  .show>.nav-link {
+    color: #252525;
+    background-color:transparent;
+    border-bottom: 3px solid #B59410;
+
+
+}
+.img-gallery img
+{
+    max-width: 1069px;
+    max-height: 329px;
+    margin-bottom: 20px
+}
+ #contactUs
+{
+    padding: 20px 0px
+} 
+#contactUs h3
+{
+     color: #B59410;
+    margin-bottom: 30px;
+      font-family: "Poetsen One", sans-serif;
+  font-weight: 700;
+    text-align: center;
+}
+#contactUs h3::before,
+#contactUs h3::after {
+    display: inline-block;
+    content: "";
+    border-top: 2px solid #B59410;
+    width: 4rem;
+    margin: 0 1rem;
+    transform: translateY(-0.5rem);
+}
+
+.nav2 .active
+{
+    color: #B59410!important
+}
+
+
+
+
+
+
+
+
+
+
+
+/*mediaQuery*/
+
+@media(max-width: 992px) and (min-width: 0px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    #navBar2 .nav li a {
+    padding: 10px 10px;
+}
+    .about-img img {
+    max-width: 100%;
+}
+
+}
+@media(max-width: 992px) and (min-width:570px) {
+  
+    .carousel-control-next, .carousel-control-prev {
+  
+    width:5%;
+    }
+}
+@media(max-width: 569px) and (min-width:0px) {
+  
+    .carousel-control-next, .carousel-control-prev {
+  
+    width:8%;
+    }
+}
+@media(max-width: 920px) and (min-width: 0px) {
+/*
+    .carousel-caption{
+ position: absolute;
+    top: 18%;
+    left: 5%;
+    right: 50%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: left;
+}
+*/
+.carousel-caption {
+position: absolute;
+  padding-left: 70px
+    }
+}
+@media(max-width: 780px) and (min-width: 0px) {
+
+.card-services
+{
+    width: 100%
+    }
+    .card-resources
+{
+    width: 100%
+ 
+}
+    .serviceForm .name-col {
+     margin-right: 0
+}
+    
+    .desTeam1 {
+    position: absolute;
+    right: 30%;
+    top: 30%;
+    text-align: center;
+}
+    .desTeam1 h2 {
+        font-size: 20px
+    }
+    .desTeam1 h5 {
+        font-size: 16px
+    }
+    .img-gallery img {
+ 
+    width: 100%;
+}
+}
+@media(max-width: 380px) and (min-width: 315px) {
+
+#services h2::before, #services h2::after {
+    display: inline-block;
+    content: "";
+    border-top: 2px solid #B59410;
+    width: 3rem;
+    margin: 0 1rem;
+    transform: translateY(-0.5rem);
+}
+    
+    #ourTeam h2::before,
+#ourTeam h2::after {
+    display: inline-block;
+    content: "";
+    border-top: 2px solid #B59410;
+    width: 3rem;
+    margin: 0 1rem;
+    transform: translateY(-0.5rem);
+}
+        #Resources h2::before,
+#Resources h2::after {
+    display: inline-block;
+    content: "";
+    border-top: 2px solid #B59410;
+    width: 3rem;
+    margin: 0 1rem;
+    transform: translateY(-0.5rem);
+}
+            #Testimonial h2::before,
+#Testimonial h2::after {
+    display: inline-block;
+    content: "";
+    border-top: 2px solid #B59410;
+    width: 3rem;
+    margin: 0 1rem;
+    transform: translateY(-0.5rem);
+}
+}
+    
+    @media(max-width: 314px) and (min-width: 280px) {
+
+#services h2::before, #services h2::after {
+    display: inline-block;
+    content: "";
+    border-top: 2px solid #B59410;
+    width: 2rem;
+    margin: 0 1rem;
+    transform: translateY(-0.5rem);
+}
+            #ourTeam h2::before,
+#ourTeam h2::after {
+    display: inline-block;
+    content: "";
+    border-top: 2px solid #B59410;
+    width: 2rem;
+    margin: 0 1rem;
+    transform: translateY(-0.5rem);
+}
+                #Resources h2::before,
+#Resources h2::after {
+    display: inline-block;
+    content: "";
+    border-top: 2px solid #B59410;
+    width: 2rem;
+    margin: 0 1rem;
+    transform: translateY(-0.5rem);
+}
+ #Testimonial h2::before,
+#Testimonial h2::after {
+    display: inline-block;
+    content: "";
+    border-top: 2px solid #B59410;
+    width: 2rem;
+    margin: 0 1rem;
+    transform: translateY(-0.5rem);
+}
+}
+    @media(max-width: 271px) and (min-width: 0) {
+
+#services h2::before, #services h2::after {
+    display: inline-block;
+    content: "";
+    border-top: 2px solid #B59410;
+    width: 0rem;
+    margin: 0 1rem;
+    transform: translateY(-0.5rem);
+}
+#ourTeam h2::before,
+#ourTeam h2::after {
+    display: inline-block;
+    content: "";
+    border-top: 2px solid #B59410;
+    width: 0rem;
+    margin: 0 1rem;
+    transform: translateY(-0.5rem);
+}
+ #Resources h2::before,
+#Resources h2::after {
+    display: inline-block;
+    content: "";
+    border-top: 2px solid #B59410;
+    width: 0rem;
+    margin: 0 1rem;
+    transform: translateY(-0.5rem);
+}
+         #Resources h2::before,
+#Resources h2::after {
+    display: inline-block;
+    content: "";
+    border-top: 2px solid #B59410;
+    width: 0rem;
+    margin: 0 1rem;
+    transform: translateY(-0.5rem);
+}
+}
+@media(max-width:1200px) and (min-width: 993px) {
+
+.card-resources
+{
+    width: 18rem;
+ 
+}
+}
+@media (max-width:1200px) and (min-width:0) {
+    .aboutDesc img , .aboutImgs img, .articleDesc img, .head-team img
+    {
+        width: 100%
+    }
+}
+@media (max-width:1200px) and (min-width:0) {
+
+.carousel-caption {
+position: absolute;
+  padding-left: 100px
+    }}
